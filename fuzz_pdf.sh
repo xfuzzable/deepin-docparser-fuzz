@@ -1,0 +1,1 @@
+xfuzz fuzz ./build/docparse_pdf -p docparse -m pdf -i data/pdf $@

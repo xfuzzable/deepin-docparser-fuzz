@@ -1,0 +1,1 @@
+xfuzz fuzz ./build/docparse_pptx -p docparse -m pptx -i data/pptx $@

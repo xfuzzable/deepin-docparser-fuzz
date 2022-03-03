@@ -1,0 +1,1 @@
+xfuzz fuzz ./build/docparse_docx -p docparse -m docx -i data/docx $@

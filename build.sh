@@ -11,7 +11,7 @@ clone_docparser
 mkdir -p build
 cd build
 qmake ../docparser "CONFIG+=staticlib"
-make CC=xfuzz-cc CXX=xfuzz-c++ V=1 -j
+make CC=xfuzz-cc CXX=xfuzz-c++ LINK=xfuzz-c++ V=1 -j
 make install INSTALL_ROOT=$PWD/install
 
 for ext in docx pdf pptx; do
